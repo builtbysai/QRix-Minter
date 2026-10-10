@@ -1,6 +1,6 @@
 # QRix Minter
 
-A premium, privacy-first QR code and barcode studio that runs entirely in the browser.
+A privacy-first QR code and barcode studio that runs entirely in the browser.
 
 **Live app:** [builtbysai.github.io/QRix-Minter](https://builtbysai.github.io/QRix-Minter/)
 
@@ -13,7 +13,7 @@ A premium, privacy-first QR code and barcode studio that runs entirely in the br
 - QR Code, Code 128, UPC-A, and EAN-13 generation
 - Smart payload templates for URLs, Wi-Fi, vCards, events, email, SMS, and geo locations
 - Logo overlays with high error correction and scan-confidence guidance
-- PNG and infinitely scalable SVG export
+- PNG and scalable SVG export
 - Batch import by paste, CSV/TXT upload, or drag and drop
 - ZIP export and Avery 5160-friendly print sheets
 - Browser-native image scanning where `BarcodeDetector` is available
@@ -39,6 +39,6 @@ Create a production build with `npm run build`.
 
 ## Notes
 
-Camera/image decoding uses the browser's experimental Barcode Detection API and gracefully reports when it is unavailable. QRix maintains the recommended four-module quiet zone and defaults to high error correction when working with logos.
+Camera/image decoding uses the browser's experimental Barcode Detection API and reports when it is unavailable. QRix maintains the recommended four-module quiet zone and defaults to high error correction when working with logos.
 
 Built by **Hans Sai**.
